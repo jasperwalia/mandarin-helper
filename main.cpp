@@ -16,7 +16,7 @@ int main() {
     int option2=0;
     int option3=0;
     std::vector<chineseCharacters> characterVec;
-    characterVec.push_back(std::make_pair("中文", "China (language)"));
+    characterVec.push_back(std::make_pair("中文", "Chinese (language)"));
     characterVec.push_back(std::make_pair("老师", "Professor/teacher"));
     characterVec.push_back(std::make_pair("美国", "America/United States"));
     characterVec.push_back(std::make_pair("中国", "China (country)"));
@@ -29,7 +29,7 @@ int main() {
     characterVec.push_back(std::make_pair("名字", "Name"));
     characterVec.push_back(std::make_pair("问", "To ask"));
     characterVec.push_back(std::make_pair("吃饭", "To eat a meal"));
-    characterVec.push_back(std::make_pair("他", "This"));
+    characterVec.push_back(std::make_pair("他", "Him"));
     characterVec.push_back(std::make_pair("的", "Of (modifies noun)"));
     characterVec.push_back(std::make_pair("这", "This"));
     std::cout << "Do you want to?\n\n1. Practice\n2. Take a quiz\n\n";
